@@ -1,0 +1,112 @@
+
+.first-section{
+    background-image: url(https://images03.nicepage.com/c461c07a441a5d220e8feb1a/2dcb06ff43e656dbb9774f0f/cx-min.jpg);
+}
+
+.top-container {
+    position: relative;
+    height: 100vh;
+    padding-top: 200px;
+}
+
+.middle-container {
+    margin: 100px 0;
+}
+
+
+.p-features{
+    size: 40px;
+    font-weight: bold;
+    line-height: 2;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align: center;
+    font-family: "Merriweather", serif;
+}
+.profile-img {
+    border-radius: 50%;
+    width: 200px; /* Adjust the width and height to your preference */
+    height: 200px; /* Make sure width and height are equal for a perfect circle */
+    overflow: hidden; /* Ensure the image doesn't overflow the rounded corners */
+}
+
+.skill-features{
+    size: 40px;
+    font-weight: bold;
+    line-height: 2;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align: left;
+    font-family: "Merriweather", serif;
+}
+
+.aboutme {
+    display: grid;
+    grid-template-rows: 0.2fr auto auto;
+    gap: 2px;
+    justify-content: center;
+    justify-items: center;
+}
+
+.intro {
+    width: 30%;
+    margin: auto;
+}
+
+p {
+    size: 40px;
+    font-weight: bold;
+    line-height: 2;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align: center;
+    font-family: "Merriweather", serif;
+}
+
+.imgleft {
+    position: absolute;
+    left: 150px;
+    bottom: 100px;
+    height: 200px;
+    width: 200px;
+}
+
+.imgright {
+    position: absolute;
+    right: 150px;
+    bottom: 100px;
+    height: 200px;
+    width: 200px;
+}
+
+#skill-header{
+    font-size: 50px;
+}
+
+h1 {
+    text-align: center;
+    color: #9AD0C2;
+    font-size: 3.625rem;
+    font-family: "Sacramento", cursive;
+}
+
+h2 {
+    text-align: center;
+    color: #9AD0C2;
+    font-size: 1.625rem;
+    font-family: "Sacramento", cursive;
+}
+h3{
+    color: #9AD0C2;
+    font-size: 1.625rem;
+    font-family: "Sacramento", cursive;
+}
